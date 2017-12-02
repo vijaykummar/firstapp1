@@ -3,7 +3,7 @@ import feedparser
 
 myapp=Flask(__name__)
 
-google_feed="C:\Python\feedparser-5.2.1\feedparser-5.2.1"
+google_feed="https://news.google.coms/rss/headlines?hl=en-IN&ned=in&gl=IN"
 
 @myapp.route("/")
 def get_news():
